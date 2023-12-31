@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="XYZ company is willing to invest in a startup, to be that particular startup win the competition"> 
+    <meta name="keywords" content="startup, investors, investion, entrepreneurship, entrepreneur"> 
+    <link rel="icon" href="./imges/XYZ.jpg"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <title>XYZ Company</title>
+    <style>body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        height: 900px;
+        /*width: 1800px;*/
+        background: url(/imges/bg2.jpg);
+        
+    }
+    
+    .header{
+        font-family: 'Mooli', sans-serif;
+    }
+    
+    .left{
+        margin: 18px 20px;
+        float: left;
+    }
+    
+    .left img{
+        width: 100px;
+        border: 2px solid rgb(105, 104, 104);
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .mid{
+        border: 2px solid rgb(19, 21, 19);
+        border-radius: 30px;
+        background-color: rgb(156, 144, 144);
+        width: 33%;
+        top: 18px;
+        left: 33%;
+        position: absolute;
+    }
+    
+    .mid a{
+        font-size: 16px;
+        color: rgb(214, 249, 245);
+        text-decoration: none;
+    }
+    
+    .mid a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .mid a.active{
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .mid ul{
+        overflow: auto;
+    }
+    
+    .mid li{
+        list-style: none;
+        float: left;
+        padding: 0px 9px;
+    }
+    
+    .right{
+        border: 2px solid black;
+        border-radius: 30px;
+        position: fixed;
+        right: 20px;
+        top: 18px;
+    }
+    
+    #search{
+        background-color: rgb(197, 195, 195) ;
+        font-size: 17px;
+        border: none;
+        border-radius: 30px;
+        height: 45px;
+    }
+    
+    input,
+    input::placeholder {
+        font-size: 20px;
+        padding-left: 4px;
+        font-family: 'Mooli', sans-serif;
+    }
+    
+    .content1{
+        border: none;
+        width: 50%;
+        font-weight: bold;
+        font-family: 'Mooli';
+        font-size: 40px;
+        position: absolute;
+        left: 13%;
+        top: 17%;
+    }
+    
+    .content2{
+        border: none;
+        width: 50%;
+        font-weight: bold;
+        font-family: 'Mooli';
+        font-size: 40px;
+        position: absolute;
+        left: 13%;
+        top: 43%;
+    }
+    
+    .footer {
+        background-color: rgb(100, 91, 91);
+        position: absolute;
+        bottom:-150px;
+        width: 1830px;
+        height: 200px;
+    }
+    
+    .footer ul{
+        position: absolute;
+        list-style: none;
+        left: 10%;
+    }
+    
+    .footer li{
+        font-family: 'Mooli', sans-serif;
+        float: left;
+        padding: 50px 150px;
+        font-size: 40px;
+    }
+    .footer li a{
+        color: rgb(195, 201, 211);
+        text-decoration: none;
+    }
+    
+    .footer li a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .content2 img{
+        width: 600px;
+        height: 300px;
+        position: absolute;
+        padding-left: 940px;
+        bottom: 0%;
+        
+    }</style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <a href="./index.html"><img src="./imges/XYZ.jpg" alt=""></a> 
+        <div class="mid">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./login.html" target="_blank">Login/Registration</a></li>
+                <li><a href="./eventgallery.html">Event Gallery</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right"><input type="text" name= "search" id="search" placeholder="search"></div>
+    </header>
+    <div class="content1">
+        <li>XYZ Company is an investment firm that focuses on giving deserved Startups a great opportunity to grow and make thier presence feel.</li>
+    </div>
+    <div class="content2">
+        <li>XYZ Company not only funds the Startup but it also does so many other events related to enterpreneur/enterpreneurship, which is written in the 'About Us' section in more detail.</li>
+        <img src="./imges/homepageimg.png" alt="">
+    </div>
+    <footer class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

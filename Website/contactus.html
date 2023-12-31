@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imges/XYZ.jpg"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <title>XYZ Company|About Us</title>
+    <style>
+        body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 700px;
+    width: 1800px;
+    background: url(/imges/bg2.jpg);
+    
+}
+
+.header{
+    font-family: 'Mooli', sans-serif;
+}
+
+.left{
+    margin: -181px 20px;
+    float: left;
+}
+
+.left img{
+    width: 100px;
+    border: 2px solid rgb(105, 104, 104);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -29px;
+}
+
+.mid{
+    border: 2px solid rgb(19, 21, 19);
+    border-radius: 30px;
+    background-color: rgb(156, 144, 144);
+    width: 33%;
+    top: 18px;
+    left: 33%;
+    position: absolute;
+    /* position: fixed; */
+}
+
+.mid a{
+    font-size: 16px;
+    color: rgb(214, 249, 245);
+    text-decoration: none;
+}
+
+.mid a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.mid a.active{
+    color: black;
+    text-decoration: underline;
+}
+
+.mid ul{
+    overflow: auto;
+}
+
+.mid li{
+    list-style: none;
+    float: left;
+    padding: 0px 9px;
+}
+
+.right{
+    border: 2px solid black;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+#search{
+    background-color: rgb(197, 195, 195) ;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+}
+
+input,
+input::placeholder {
+    font-size: 20px;
+    padding-left: 4px;
+    font-family: 'Mooli', sans-serif;
+}
+
+.container{
+    background-color: rgb(156, 144, 144);
+    border: 2px solid black;
+    margin: 227px 499px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.container h1{
+    width: 404px;
+    margin: 40px 230px;
+    font-size: 34px;
+    font-family: 'mooli', sans-serif;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+.image1 img{
+    border: 2px solid black ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 37%;
+    bottom: 25%;
+}
+.image2 img{
+    border: 2px solid black ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+}
+.image3 img{
+    border: 2px solid black ;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 57%;
+    bottom: 25%;
+    transform: translateX(50%);
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <a href="./index.html"><img src="./imges/XYZ.jpg" alt=""></a> 
+        </div>
+        <div class="mid">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html">About Us</a></li>
+                <li><a href="./login.html" target="_blank">Login/Registration</a></li>
+                <li><a href="./eventgallery.html">Event Gallery</a></li>
+                <li><a href="./contactus.html"  class="active">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right"><input type="text" name= "search" id="search" placeholder="search"></div>
+    </header>
+    <div class="container">
+        <h1>Feel Free to Contact Us!</h1>
+        <img src="./imges/XYZ.jpg" alt="">
+    </div>
+    <div class="image1">
+        <a href="https://www.facebook.com" target="_blank"><img src="./imges/facebook.jpg" alt=""></a>
+    </div>
+    <div class="image2">
+        <a href="https://www.instagram.com" target="_blank"><img src="./imges/instagram.jpg" alt=""></a>
+    </div>
+    <div class="image3">
+        <a href="https://www.twitter.com" target="_blank"><img src="./imges/twitter.jpg" alt=""></a>
+    </div>
+</body>
+</html>

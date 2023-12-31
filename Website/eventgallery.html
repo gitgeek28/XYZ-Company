@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imges/XYZ.jpg"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <title>XYZ Company|Event Gallery</title>
+    <style>
+        body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 3140px;
+    width: 1800px;
+    background: url(/imges/bg2.jpg);
+    
+}
+
+.header{
+    font-family: 'Mooli', sans-serif;
+}
+
+.left{
+    margin: -59px 20px;
+    float: left;
+}
+
+.left img{
+    margin-top: -29px;
+    width: 100px;
+    border: 2px solid rgb(105, 104, 104);
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.mid{
+    border: 2px solid rgb(19, 21, 19);
+    border-radius: 30px;
+    background-color: rgb(156, 144, 144);
+    width: 33%;
+    top: 18px;
+    left: 33%;
+    position: absolute;
+    /* position: fixed; */
+}
+
+.mid a{
+    font-size: 16px;
+    color: rgb(214, 249, 245);
+    text-decoration: none;
+}
+
+.mid a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.mid a.active{
+    color: black;
+    text-decoration: underline;
+}
+
+.mid ul{
+    overflow: auto;
+}
+
+.mid li{
+    list-style: none;
+    float: left;
+    padding: 0px 9px;
+}
+
+.right{
+    border: 2px solid black;
+    border-radius: 30px;
+    position: absolute;
+    right: 20px;
+    top: 18px;
+}
+
+#search{
+    background-color: rgb(197, 195, 195) ;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+}
+
+input,
+input::placeholder {
+    font-size: 20px;
+    padding-left: 4px;
+    font-family: 'Mooli', sans-serif;
+}
+
+.content h1{
+    font-family: 'mooli', sans-serif;
+    font-size: 28px;
+    margin: 100px 0px;
+    padding: 10px 803px
+}
+
+.content li{ 
+    font-weight: 700;
+    color: rgb(67, 62, 62);
+    font-size: 27px;
+    font-family: 'mooli', sans-serif;
+    margin: -84px 13px 101px 13px;
+    padding: 0px 313px;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.content .startup img:nth-child(1){
+    margin: -58px 161px;
+    width: 458px;
+    height: 400px;
+}
+.content .startup img:nth-child(2){
+    margin: -58px -165px;
+    width: 536px;
+    height: 400px;
+}
+
+
+.content .startup img:nth-child(3){
+    margin: -58px 161px;
+    width: 481px;
+    height: 400px;
+}
+
+.content .startup img:nth-child(4){
+    margin: 54px 518px;
+    width: 741px;
+    height: 429px;
+}
+
+
+.content .startup img:nth-child(5){
+    margin: -98px 161px;
+    width: 458px;
+    height: 400px;
+}
+
+.content .startup img:nth-child(6){
+    margin: -98px -165px;
+    width: 536px;
+    height: 400px;
+}
+
+
+.content .startup img:nth-child(7){
+    /* padding-top: 443px; */
+    margin: -98px 161px;
+    width: 481px;
+    height: 400px;
+}
+
+.content .startup img:nth-child(8){
+    margin: 92px 518px;
+    width: 741px;
+    height: 429px;
+}
+
+
+.content .startup img:nth-child(9){
+    margin: -4px 161px;
+    width: 741px;
+    height: 400px;
+}
+
+.content .startup img:nth-child(10){
+    margin: -204px 0px -204px 901px;
+    width: 741px;
+    height: 429px;
+}
+
+.content .startup img:nth-child(11){
+    margin: -26px 160px;
+    width: 741px;
+    height: 429px;
+}
+
+.content .startup img:nth-child(12){
+    margin: -208px 0px -208px 900px;
+    width: 741px;
+    height: 429px;
+}
+
+
+.footer ul{
+    position: absolute;
+    list-style: none;
+    bottom: 19%;
+    left: 10%;
+}
+
+.footer li{
+    font-family: 'Mooli', sans-serif;
+    float: left;
+    padding: 0px 150px;
+    font-size: 40px;
+}
+.footer li a{
+    color: rgb(195, 201, 211);
+    text-decoration: none;
+}
+
+.footer li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.footer {
+    background-color: rgb(100, 91, 91);
+    position: absolute;
+    bottom:-350%;
+    /* bottom: -239% ; */
+    width: 1830px;
+    height: 160px;
+}
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <a href="./index.html"><img src="./imges/XYZ.jpg" alt=""></a> 
+           </div>
+        <div class="mid">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html" >About Us</a></li>
+                <li><a href="./login.html" target="_blank">Login/Registration</a></li>
+                <li><a href="./eventgallery.html" class="active">Event Gallery</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right"><input type="text" name= "search" id="search" placeholder="search"></div>
+    </header>
+    <div class="content">
+        <h1>Event Gallery</h1>
+        <div class="startup">
+            <img src="./event gallery/startup1.jpg" alt="" >
+            <img src="./event gallery/startup2.jpg" alt="" >
+            <img src="./event gallery/startup3.webp" alt="" >
+            <img src="./event gallery/startup4.jpg" alt="" >
+            <img src="./event gallery/hackathon1.jpg" alt="">
+            <img src="./event gallery/hackathon5.jpg" alt="">
+            <img src="./event gallery/hackathon2.webp" alt="">
+            <img src="./event gallery/hackathon3.jpg" alt="">
+            <img src="./event gallery/hackathon4.jpg" alt="">
+            <img src="./event gallery/pitch2.webp" alt="">
+            <img src="./event gallery/pitch1.webp" alt="">
+            <img src="./event gallery/hackathon6.jpg" alt="">
+      </div>
+    </div>
+
+    <footer class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+         
+
+</body>
+</html>

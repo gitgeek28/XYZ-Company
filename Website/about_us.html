@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imges/XYZ.jpg"> 
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="/style2.css"> -->
+    <title>XYZ Company|About Us</title>
+    <style>body{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        height: 1400px;
+        width: 1800px;
+        background: url(/imges/bg2.jpg);
+        
+    }
+    
+    .header{
+        font-family: 'Mooli', sans-serif;
+    }
+    
+    .left{
+        margin: 18px 20px;
+        float: left;
+    }
+    
+    .left img{
+        width: 100px;
+        border: 2px solid rgb(105, 104, 104);
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .mid{
+        border: 2px solid rgb(19, 21, 19);
+        border-radius: 30px;
+        background-color: rgb(156, 144, 144);
+        width: 33%;
+        top: 18px;
+        left: 33%;
+        position: absolute;
+        /* position: fixed; */
+    }
+    
+    .mid a{
+        font-size: 16px;
+        color: rgb(214, 249, 245);
+        text-decoration: none;
+    }
+    
+    .mid a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .mid a.active{
+        color: black;
+        text-decoration: underline;
+    }
+    
+    .mid ul{
+        overflow: auto;
+    }
+    
+    .mid li{
+        list-style: none;
+        float: left;
+        padding: 0px 9px;
+    }
+    
+    .right{
+        border: 2px solid black;
+        border-radius: 30px;
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+    
+    #search{
+        background-color: rgb(197, 195, 195) ;
+        font-size: 17px;
+        border: none;
+        border-radius: 30px;
+        height: 45px;
+    }
+    
+    input,
+    input::placeholder {
+        font-size: 20px;
+        padding-left: 4px;
+        font-family: 'Mooli', sans-serif;
+    }
+    
+    .content1 h1{
+        position: absolute;
+        font-family: 'mooli', sans-serif;
+        font-size: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 10%;
+    }
+    
+    .content1 ul{
+        font-family: 'mooli', sans-serif;
+        position: absolute;
+        font-size: 23px;
+        padding: 30px 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 15%;
+    }
+    
+    .content1 li{
+        width: 1300px;
+        padding: 10px 0px;
+    }
+    
+    .content2 h2{
+        position: absolute;
+        font-family: 'mooli', sans-serif;
+        font-size: 45px;
+        left: 50%;
+        /* transform: translateX(-50%); */
+        top: 45%;
+    }
+    
+    .content2 ul{
+        font-family: 'mooli', sans-serif;
+        position: absolute;
+        font-size: 23px;
+        padding: 30px 0px;
+        left: 50%;
+        /* transform: translateX(-50%); */
+        top: 50%;
+    }
+    
+    .content2 li{
+        width: 650px;
+        padding: 10px 0px;
+    }
+    
+    .content2 img{
+        width: 550px;
+        height: 400px;
+        padding-top: 380px;
+        padding-left: 0px;
+    }
+    
+    .content3 h2{
+        font-family: 'mooli', sans-serif;
+        position: absolute;
+        font-size: 45px;
+        bottom: -15%;
+        left: 20%;
+    }
+    
+    .content3 ul{
+        font-family: 'mooli', sans-serif;
+        position: absolute;
+        font-size: 23px;
+        left: 12%;
+        bottom: -27%;
+    }
+    
+    .content3 li{
+        width: 750px;
+    }
+    
+    .content3 img{
+        padding-left: 1100px;
+        padding-top: 80px;
+        width: 550px;
+        height: 350px;
+    }
+    
+    .footer {
+        background-color: rgb(100, 91, 91);
+        position: absolute;
+        bottom: -100%;
+        width: 1830px;
+        height: 160px;
+    }
+    
+    .footer ul{
+        position: absolute;
+        list-style: none;
+        bottom: 19%;
+        left: 10%;
+    }
+    
+    .footer li{
+        font-family: 'Mooli', sans-serif;
+        float: left;
+        padding: 0px 150px;
+        font-size: 40px;
+    }
+    .footer li a{
+        color: rgb(195, 201, 211);
+        text-decoration: none;
+    }
+    
+    .footer li a:hover{
+        color: black;
+        text-decoration: underline;
+    }</style>
+</head> 
+<body>
+    <header class="header">
+        <div class="left">
+           <a href="./index.html"><img src="./imges/XYZ.jpg" alt=""></a> 
+        <div class="mid">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about_us.html" class="active">About Us</a></li>
+                <li><a href="./login.html" target="_blank">Login/Registration</a></li>
+                <li><a href="./eventgallery.html">Event Gallery</a></li>
+                <li><a href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right"><input type="text" name= "search" id="search" placeholder="search"></div>
+    </header>
+    <div class="content1">
+        <h1>About Us</h1>
+        <ul>
+            <li>The XYZ Company, Inc. is a leading global financial institution whose sole purpose is to nurture budding enterpreneurs and their startups interms of money by investingin them. </li>
+            <li>Not only that XYZ Comany, Inc also conductus various speaker session from reknowned enterpreneurs, hosting challenging hackathons, organizing regular Startup showdown etc.</li>
+            <li>Founded in 1923, the firm is headquartered in New York and maintains offices in all major financial centers around the world.</li>
+        </ul>
+    </div>
+    <div class="content2">
+        <h2>Our Purpose And Values</h2>
+        <ul>
+            <li>We aspire to be the world&#39s most exceptional financial institution, united by our shared values of partnership, client service, integrity and excellence. </li>
+            <li>Drawing on over 150 years of experience working with the world’s leading businesses, entrepreneurs, and institutions, we mobilize our people, culture, technologies, and ideas to advance the success of our clients, broaden individual prosperity, and accelerate enterpreneurial progress for all.</li>
+        </ul>
+        <img src="./imges/startup1.jpg" alt="">
+    </div>
+    <div class="content3">
+        <h2>People and Leadership</h2>
+        <ul>
+            <li>Our people are our greatest asset &#8211; we say it often and with good reason. It is only with the determination and dedication of our people that we can serve our clients, generate long-term value for our shareholders and contribute to the broader public.</li>
+        </ul>
+            <img src="./imges/about us img.jpg" alt="">
+    </div>
+    <footer class="footer">
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
